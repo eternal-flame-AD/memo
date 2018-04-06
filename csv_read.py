@@ -1,4 +1,5 @@
 import csv
+import codecs
 
 
 def readcsv(fn):
