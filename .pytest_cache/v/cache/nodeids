@@ -1,8 +1,11 @@
 [
   "csv_read.py",
+  "del_folder.py",
   "singleton.py",
   "tests/test_csv_read.py",
   "tests/test_csv_read.py::test_csv_read",
+  "tests/test_del_folder.py",
+  "tests/test_del_folder.py::test_del_folder",
   "tests/test_singleton.py",
   "tests/test_singleton.py::test_singleton"
 ]
