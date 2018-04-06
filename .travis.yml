@@ -10,6 +10,6 @@ install:
   - pip install pytest
   - pip install pytest-pep8
   - pip install pytest-cov
-script: py.test --pep8 --cov
+script: py.test --pep8 --cov ./
 after_success:
   - coveralls
