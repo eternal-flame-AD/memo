@@ -8,6 +8,8 @@ python:
 install:
   - pip install python-coveralls
   - pip install pytest
-script: py.test
+  - pip install pytest-pep8
+  - pip install pytest-cov
+script: py.test --pep8 coveralls --cov coveralls
 after_success:
-  - COVERALLS_REPO_TOKEN=$coverallstoken coveralls
+  - coveralls
