@@ -1,8 +1,11 @@
-import os,sys  
+import os
+import sys
 
 
-parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
-sys.path.insert(0,parentdir) 
+parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, parentdir)
+
+
 def test_csv_read():
     import csv_read
     expectedResult = {'Hello': 'bonjour', 'Welcome': 'bienvenue'}

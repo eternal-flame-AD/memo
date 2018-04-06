@@ -1,4 +1,8 @@
 [
+  "csv_read.py",
+  "singleton.py",
+  "tests/test_csv_read.py",
   "tests/test_csv_read.py::test_csv_read",
+  "tests/test_singleton.py",
   "tests/test_singleton.py::test_singleton"
 ]

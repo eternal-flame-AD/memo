@@ -4,7 +4,7 @@
     []
   ],
   "D:\\libs\\memo\\singleton.py": [
-    1523004500.9654036,
+    1523007220.8635135,
     []
   ],
   "D:\\libs\\memo\\test_csv_read.py": [
@@ -13,6 +13,14 @@
   ],
   "D:\\libs\\memo\\test_singleton.py": [
     1523004524.3144047,
+    []
+  ],
+  "D:\\libs\\memo\\tests\\test_csv_read.py": [
+    1523008952.2322774,
+    []
+  ],
+  "D:\\libs\\memo\\tests\\test_singleton.py": [
+    1523009017.959944,
     []
   ]
 }

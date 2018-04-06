@@ -1,8 +1,10 @@
-import os,sys  
-parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
-sys.path.insert(0,parentdir)
+import os
+import sys
 
 from singleton import MyClass, MySingletonClass, MyNonSingletonClass
+
+parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, parentdir)
 
 
 def test_singleton():
